@@ -6,6 +6,8 @@ import lombok.Data;
 @Data
 @AllArgsConstructor
 public class Vehicle {
+
+    private boolean telemetryEnabled;
     private double longitude;
     private double latitude;
 }

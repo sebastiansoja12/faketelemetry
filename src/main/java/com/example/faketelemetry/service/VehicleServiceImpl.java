@@ -18,8 +18,8 @@ public class VehicleServiceImpl implements VehicleService {
     @Override
     public void init() {
         // Create some vehicles with initial coordinates
-        vehicles.put("SR1234", new Vehicle(50.1097081, 18.4792279));
-        vehicles.put("SO1234", new Vehicle(50.0468548, 19.9348336));
+        vehicles.put("SR1234", new Vehicle(true, 50.1097081, 18.4792279));
+        vehicles.put("SO1234", new Vehicle(true, 50.0468548, 19.9348336));
 
         // Start a timer that updates the coordinates of each vehicle every 5 minutes
         final Timer timer = new Timer();
