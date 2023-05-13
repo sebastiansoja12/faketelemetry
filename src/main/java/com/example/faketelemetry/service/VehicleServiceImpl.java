@@ -35,6 +35,6 @@ public class VehicleServiceImpl implements VehicleService {
                         }
                 );
             }
-        }, 0, 300);
+        }, 0, 60000);
     }
 }
